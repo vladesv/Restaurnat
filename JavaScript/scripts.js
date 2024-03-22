@@ -115,3 +115,8 @@ addEventOnElement([heroSliderNextBtn, heroSliderPrevBtn], "mouseover", function 
 addEventOnElement([heroSliderNextBtn, heroSliderPrevBtn], "mouseout", autoSlide);
 
 window.addEventListener("load", autoSlide);
+
+  /* Menu Slider */
+
+const menuSlider = document.querySelector("[data-grid-list]");
+const menuSliderItems = document.querySelectorAll("[data-grid-list-menu-item]");

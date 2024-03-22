@@ -627,7 +627,10 @@ body.nav-active { overflow: hidden; }
 
 .menu .section-text { margin-block-end: 40px; }
     
-.menu-card { overflow: hidden; }
+.menu-card { 
+    overflow: hidden;
+    visibility: hidden; 
+}
     
 .menu-card .has-before {
     padding-block: 30px;
@@ -663,5 +666,9 @@ body.nav-active { overflow: hidden; }
 .menu-card:is(:hover, :focus-within) .card-banner { transform: scale(1.05); }
 
 .menu .card-title { margin-block-end: 12px; }
+
+.menu-card.active {
+    visibility: visible;
+}
     
     
